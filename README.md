@@ -1,29 +1,49 @@
-# Weather Effects on Flight Delays
+# Flight Delays in 2015
 
 ### Team Members:
 Joe Barcus, Richard Burger, Vivian Plasencia, & Dylan Rossi
 
 ### Project Description:
-We will be analyzing flight data from 2015 to attempt to find a trend between delays and weather patterns throughout the year.
+We will be analyzing flight data from 2015 to find trends in flight delays
 
 ### Research Questions to Answer:
-1. What Airlines get delayed the most
-2. What airports get delayed the most
-3. What type of weather causes the most Delays
-4. How much time does certain weather delay a flight
+1. What is the average arrival delay for each airline
+2. What is the average arrival delay for the top 10 US airports
+3. Which airport has the most flights in 2015
+4. Which airline had the most flights in 2015
+5. Which month has the most flights in 2015
+6. Which month has the highest/lowest average arrival delay in 2015
+7. Which day of the week has the highest/lowest average arrival delay in 2015
 
 ### Datasets to be Used:
 Department of Transportation (DOT) Dataset of On-Time Performance of Airlines
-
-### APIs to consume
-[OpenWeatherMap](http://openweathermap.org/api)
-
-[Airport-Data.com](http://www.airport-data.com/api/doc.php)
 
 ### Breakdown of Tasks
 
 1. Get Dataset
 2. Breakdown & Analyze Data Set
-3. Grab weather data for each row
-4. Check for Trends between weather and delays
-5. Make charts using MatPlotLib
+3. Get average airline Data
+4. get average airport Data
+5. get average monthly Data
+6. get average weekly Data
+7. Graph using MatPlotLib
+8. Find best and worst in each category
+
+## Questions Answered
+1. What is the average arrival delay for each airline
+![image](Arrival_Delay_by_airline.png)
+2. What is the average arrival delay for the top 10 US airports
+![image](arrival_delay_by_airport.png)
+
+3. Which airport has the most flights in 2015
+![image](total_flights_by_airport.png)
+4. Which airline had the most flights in 2015
+![image](total_flights_by_airline.png)
+5. Which month has the most flights in 2015
+![image](flights_by_month.png)
+
+6. Which month has the highest/lowest average arrival delay in 2015
+![image](Arrival_delay_by_month.png)
+
+7. Which day of the week has the highest/lowest average arrival delay in 2015
+![image](avg_delay_by_day_of_week.png)
